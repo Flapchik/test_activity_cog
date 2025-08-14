@@ -11,5 +11,4 @@ class ActivityCog(commands.Cog):
         await self.bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name='Roblox'))
 
 
-def setup(bot):
-    bot.add_cog(ActivityCog(bot))
+
