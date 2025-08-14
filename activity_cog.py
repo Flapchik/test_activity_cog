@@ -8,7 +8,8 @@ class ActivityCog(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        await self.bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name='Roblox'))
+        await self.bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name='Roblox + '
+                                                                                                         'Minecraft'))
 
 
 
